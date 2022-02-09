@@ -18,18 +18,18 @@ public class BurgerOrder {
     private int numVeggieburgers = 0;
     private int numSodas = 0;
     private boolean orderToGo = false;
-    private int orderNum = 1;
+    private int orderNum = 0;
     
     //Constructor(s)
 
     /**
      *
-     * @param ham
-     * @param cheese
-     * @param veg
-     * @param sod
-     * @param order
-     * @param toGo
+     * @param i
+     * @param i2
+     * @param i1
+     * @param i3
+     * @param i4
+     * @param bln
      */
     
     public BurgerOrder(int ham, int cheese, int veg, int sod,  int order, boolean toGo){
